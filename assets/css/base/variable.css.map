@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAoB",
+"sources": ["../../sass/base/variable.scss"],
+"names": [],
+"file": "variable.css"
+}
