@@ -224,419 +224,134 @@
                         </div>
                     </div>
                     <!-- end page title -->
-
                 </div>
                 <!-- container-fluid -->
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="cc-table-button-heads align-items-center d-flex justify-content-between">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li>
-                                            show
-                                            <select name="length" class="ic-table-length" id="">
-                                                <option value="0">10</option>
-                                                <option value="1">20</option>
-                                                <option value="2">30</option>
-                                            </select>
-                                            Books
-                                        </li>
-                                        <li>
-                                            <div class="ic-filter-search d-flex align-items-center">
-                                                <!-- App Search-->
-                                                <form class="app-search">
-                                                    <div class="position-relative">
-                                                        <input type="text" class="form-control" placeholder="Search...">
-                                                        <button class="btn" type="button"><i
-                                                                data-feather="search"></i></button>
-                                                    </div>
-                                                </form>
-
-                                                <div class="dropdown">
-                                                    <button class="btn tb-btn btn-outline-primary dropdown-toggle"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false"> <i class="mdi mdi-filter-outline
-                                                            "></i>
-                                                        Filter</button>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
-                                                                "></i> Add Translation</a></li>
-                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
-                                                                "></i> Edit</a></li>
-                                                        <li><a class="dropdown-item text-danger" href="#"><i
-                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul class="list-unstyled d-flex ic-tables-buttons">
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary"><i class="icon-download"></i>
-                                                Download
-                                                Report</button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-copy"></i>
-                                                Copy
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-csv"></i>
-                                                CVS
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-execl"></i>
-                                                Excel
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-pdf"></i>
-                                                PDF
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-print"></i>
-                                                Print
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <table cellpadding="2" class="cc-datatable table nowrap w-100">
-                                    <thead>
-                                        <tr>
-                                            <th class="text-center">Series</th>
-                                            <th class="text-center">Book
-                                                No</th>
-                                            <th>Title</th>
-                                            <th class="text-center">Language</th>
-                                            <th class="text-center">eBook</th>
-                                            <th class="text-center">POD1</th>
-                                            <th class="text-center">Audio</th>
-                                            <th class="text-center">POD2</th>
-                                            <th class="text-center">GFP</th>
-                                            <th class="text-center">Action</th>
-                                        </tr>
-                                    </thead>
-
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
-                                                            "></i> Add Translation</a></li>
-                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
-                                                            "></i> Edit</a></li>
-                                                        <li><a class="dropdown-item text-danger" href="#"><i
-                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center bg-orange"><span class="text-red ">ToDo</span></td>
-                                            <td class="text-center bg-red"><span class="text-green ">Done</span></td>
-                                            <td class="text-center bg-green"><span class="text-orange">Progress</span>
-                                            </td>
-                                            <td class="text-center bg-red"><span class="text-red ">ToDo</span></td>
-                                            <td class="text-center bg-orange"><span class="text-orange ">Progress</span>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">The Christian Way Series</td>
-                                            <td class="text-center">01</td>
-                                            <td>The way of life </td>
-                                            <td class="text-center">EN</td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-green">Done</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center"><span class="text-red">ToDo</span></td>
-                                            <td class="text-center"><span class="text-orange">Progress</span></td>
-                                            <td class="text-center">
-                                                <div class="dropdown">
-                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false">
-                                                        <i class="fas fa-ellipsis-v"></i>
-                                                    </a>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                <div class="ic-dashboard-card">
+                    <div class="ic-dashboard-card-items box purple">
+                        <img src="assets/images/purple/purple-1.png" class="first-img" alt="">
+                        <img src="assets/images/purple/purple-2.png" class="second-img" alt="">
+                        <img src="assets/images/purple/purlple-3.png" class="third-img" alt="">
+                        <div class="icon">
+                            <i class="icon-books"></i>
+                        </div>
+                        <div class="ic-card-content">
+                            <p>Total Series</p>
+                            <h3>14</h3>
+                        </div>
+                    </div>
+                    <div class="ic-dashboard-card-items box orange">
+                        <img src="assets/images/purple/purple-1.png" class="first-img" alt="">
+                        <img src="assets/images/purple/purple-2.png" class="second-img" alt="">
+                        <img src="assets/images/purple/purlple-3.png" class="third-img" alt="">
+                        <div class="icon">
+                            <i class="icon-a-books"></i>
+                        </div>
+                        <div class="ic-card-content">
+                            <p>Total Series</p>
+                            <h3>14</h3>
+                        </div>
+                    </div>
+                    <div class="ic-dashboard-card-items box blue">
+                        <img src="assets/images/purple/purple-1.png" class="first-img" alt="">
+                        <img src="assets/images/purple/purple-2.png" class="second-img" alt="">
+                        <img src="assets/images/purple/purlple-3.png" class="third-img" alt="">
+                        <div class="icon">
+                            <i class="icon-book-open"></i>
+                        </div>
+                        <div class="ic-card-content">
+                            <p>Total Books</p>
+                            <h3>343</h3>
+                        </div>
+                    </div>
+                    <div class="ic-dashboard-card-items box sky-blue">
+                        <img src="assets/images/purple/purple-1.png" class="first-img" alt="">
+                        <img src="assets/images/purple/purple-2.png" class="second-img" alt="">
+                        <img src="assets/images/purple/purlple-3.png" class="third-img" alt="">
+                        <div class="icon">
+                            <i class="icon-book-open"></i>
+                        </div>
+                        <div class="ic-card-content">
+                            <p>Total Language</p>
+                            <h3>19</h3>
+                        </div>
+                    </div>
+                    <div class="ic-dashboard-card-items box tia">
+                        <img src="assets/images/purple/purple-1.png" class="first-img" alt="">
+                        <img src="assets/images/purple/purple-2.png" class="second-img" alt="">
+                        <img src="assets/images/purple/purlple-3.png" class="third-img" alt="">
+                        <div class="icon">
+                            <i class="icon-book-open"></i>
+                        </div>
+                        <div class="ic-card-content">
+                            <p>Total eBook</p>
+                            <h3>1433</h3>
+                        </div>
+                    </div>
+                    <div class="ic-dashboard-card-items box brown">
+                        <img src="assets/images/purple/purple-1.png" class="first-img" alt="">
+                        <img src="assets/images/purple/purple-2.png" class="second-img" alt="">
+                        <img src="assets/images/purple/purlple-3.png" class="third-img" alt="">
+                        <div class="icon">
+                            <i class="icon-book-open"></i>
+                        </div>
+                        <div class="ic-card-content">
+                            <p>Total POD</p>
+                            <h3>566</h3>
+                        </div>
+                    </div>
+                    <div class="ic-dashboard-card-items box red">
+                        <img src="assets/images/purple/purple-1.png" class="first-img" alt="">
+                        <img src="assets/images/purple/purple-2.png" class="second-img" alt="">
+                        <img src="assets/images/purple/purlple-3.png" class="third-img" alt="">
+                        <div class="icon">
+                            <i class="icon-book-open"></i>
+                        </div>
+                        <div class="ic-card-content">
+                            <p>Total Audio</p>
+                            <h3>668</h3>
+                        </div>
+                    </div>
+                    <div class="ic-dashboard-card-items box sky-blue">
+                        <img src="assets/images/purple/purple-1.png" class="first-img" alt="">
+                        <img src="assets/images/purple/purple-2.png" class="second-img" alt="">
+                        <img src="assets/images/purple/purlple-3.png" class="third-img" alt="">
+                        <div class="icon">
+                            <i class="icon-book2"></i>
+                        </div>
+                        <div class="ic-card-content">
+                            <p>Total POD 2</p>
+                            <h3>987</h3>
+                        </div>
+                    </div>
+                    <div class="ic-dashboard-card-items box">
+                        <img src="assets/images/purple/purple-1.png" class="first-img" alt="">
+                        <img src="assets/images/purple/purple-2.png" class="second-img" alt="">
+                        <img src="assets/images/purple/purlple-3.png" class="third-img" alt="">
+                        <div class="icon">
+                            <i class="icon-print"></i>
+                        </div>
+                        <div class="ic-card-content">
+                            <p>Total GFP</p>
+                            <h3>467</h3>
                         </div>
                     </div>
                 </div>
+
+                <section class="cc-mt-80">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>Available Languages and Titles</h4>
+                                </div>
+                                <div class="card-body">
+                                    <div id="column_chart_datalabel" class="apex-charts" dir="ltr"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
             <!-- End Page-content -->
 
@@ -692,6 +407,7 @@
 
     <!-- apexcharts -->
     <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/js/pages/apexcharts.init.js"></script>
     <!-- dashboard init -->
     <script src="assets/js/app.js"></script>
 

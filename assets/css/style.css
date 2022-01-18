@@ -10,7 +10,7 @@
   color: #5b6572; }
 
 .text-orange {
-  color: #f2994a; }
+  color: #fe7f57; }
 
 .text-red {
   color: #f2391f; }
@@ -19,7 +19,7 @@
   color: #33c83b; }
 
 .bg-orange {
-  background-color: #f2994a !important; }
+  background-color: #fe7f57 !important; }
   .bg-orange span {
     color: #fff !important; }
 
@@ -40,6 +40,14 @@ body {
 i {
   color: #f7b104; }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0; }
+
 /**color Variable**/
 .text-yellow {
   color: #f7b104; }
@@ -51,7 +59,7 @@ i {
   color: #5b6572; }
 
 .text-orange {
-  color: #f2994a; }
+  color: #fe7f57; }
 
 .text-red {
   color: #f2391f; }
@@ -60,7 +68,7 @@ i {
   color: #33c83b; }
 
 .bg-orange {
-  background-color: #f2994a !important; }
+  background-color: #fe7f57 !important; }
   .bg-orange span {
     color: #fff !important; }
 
@@ -73,6 +81,12 @@ i {
   background-color: #33c83b !important; }
   .bg-green span {
     color: #fff !important; }
+
+.cc-mt-80 {
+  margin-top: 80px; }
+  @media only screen and (max-width: 991.98px) {
+    .cc-mt-80 {
+      margin-top: 40px; } }
 
 div.dataTables_wrapper div.dataTables_info {
   padding-top: 0.85em;
@@ -212,6 +226,16 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     background: #f7b104; }
     .cc-table-action:hover i {
       color: #fff; }
+
+.card {
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 30px; }
+  .card .card-header {
+    border: none;
+    border-radius: 30px 30px 0 0; }
+  .card .card-body {
+    padding: 30px; }
 
 .metismenu {
   margin: 40px 10px 0 10px; }
@@ -528,7 +552,7 @@ body[data-sidebar="dark"] .vertical-menu {
   color: #5b6572; }
 
 .text-orange {
-  color: #f2994a; }
+  color: #fe7f57; }
 
 .text-red {
   color: #f2391f; }
@@ -537,7 +561,7 @@ body[data-sidebar="dark"] .vertical-menu {
   color: #33c83b; }
 
 .bg-orange {
-  background-color: #f2994a !important; }
+  background-color: #fe7f57 !important; }
   .bg-orange span {
     color: #fff !important; }
 
@@ -5463,5 +5487,124 @@ table.dataTable > thead .sorting_desc_disabled::after {
     -webkit-transform: rotate(45deg) translateX(-50%);
     transform: rotate(45deg) translateX(-50%);
     top: -2px; } }
+.box {
+  display: flex;
+  grid-gap: 40px;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  padding: 30px;
+  overflow: hidden;
+  position: relative; }
+  .box .first-img {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .box .second-img {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .box .third-img {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .box .icon {
+    width: 108px;
+    height: 108px;
+    line-height: 108px;
+    text-align: center;
+    background: #9170fe;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1; }
+    .box .icon i {
+      line-height: unset; }
+      .box .icon i:before {
+        font-size: 48px;
+        color: #fff; }
+  .box p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #9170fe;
+    margin-bottom: 0;
+    z-index: 2;
+    position: relative; }
+  .box h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+    position: relative;
+    margin-bottom: 0;
+    z-index: 2; }
+
+.purple {
+  background: #f6f1ff; }
+  .purple p {
+    color: #9170fe; }
+
+.orange {
+  background: #fef1ee; }
+  .orange p {
+    color: #fe7f57; }
+  .orange .icon {
+    background: #fe7f57;
+    z-index: 1; }
+
+.blue {
+  background: #eaf4fe; }
+  .blue p {
+    color: #2d8afd; }
+  .blue .icon {
+    background: #2d8afd; }
+
+.sky-blue {
+  background: #f0f6fb; }
+  .sky-blue p {
+    color: #53c4ff; }
+  .sky-blue .icon {
+    background: #53c4ff; }
+
+.tia {
+  background: #f2fff4; }
+  .tia p {
+    color: #9eefa4; }
+  .tia .icon {
+    background: #9eefa4; }
+
+.brown {
+  background: #fdf5ef; }
+  .brown p {
+    color: #ffb26f; }
+  .brown .icon {
+    background: #ffb26f; }
+
+.brown {
+  background: #fdf5ef; }
+  .brown p {
+    color: #ffb26f; }
+  .brown .icon {
+    background: #ffb26f; }
+
+.red {
+  background: #ffeeef; }
+  .red p {
+    color: #ff3c21; }
+  .red .icon {
+    background: #ff3c21; }
+
+.sky-blue {
+  background: #f0f6fb; }
+  .sky-blue p {
+    color: #6a9ffd; }
+  .sky-blue .icon {
+    background: #6a9ffd; }
+
+.ic-dashboard-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px; }
 
 /*# sourceMappingURL=style.css.map */
