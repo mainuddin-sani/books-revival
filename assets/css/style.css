@@ -88,6 +88,9 @@ h6 {
     .cc-mt-80 {
       margin-top: 40px; } }
 
+.ic-pb-20 {
+  padding-bottom: 20px; }
+
 div.dataTables_wrapper div.dataTables_info {
   padding-top: 0.85em;
   display: inline-flex;
@@ -5606,5 +5609,15 @@ table.dataTable > thead .sorting_desc_disabled::after {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px; }
+
+.ic-seclect {
+  width: 263px;
+  border: 1px solid #f7b104;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #f7b104;
+  padding: 15px 20px; }
+  .ic-seclect:focus {
+    outline: 0; }
 
 /*# sourceMappingURL=style.css.map */
