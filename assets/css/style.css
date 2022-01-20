@@ -483,7 +483,7 @@ body[data-sidebar-size="sm"] {
           color: #f7b104;
           background: #fff; }
         body[data-sidebar-size="sm"] .vertical-menu #sidebar-menu > ul > li:hover > a span {
-          display: inline; }
+          display: none; }
       body[data-sidebar-size="sm"] .vertical-menu #sidebar-menu > ul > li:hover > ul {
         display: block;
         left: 80px;
