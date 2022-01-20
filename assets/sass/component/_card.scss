@@ -10,3 +10,23 @@
     padding: 30px;
   }
 }
+.dz-message {
+  i {
+    &::before {
+      color: $color-primary;
+    }
+  }
+}
+
+.cc-check-items {
+  display: flex;
+  grid-gap: 50px;
+}
+.cc-mp-upload {
+  ul {
+    grid-gap: 10px;
+  }
+}
+.cc-file-upload {
+  margin-bottom: 50px;
+}

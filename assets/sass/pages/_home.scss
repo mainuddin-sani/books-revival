@@ -1119,6 +1119,14 @@ body {
   position: relative;
   margin-left: 50px;
   width: 320px;
+  @media #{$max1440} {
+    width: 223px;
+  }
+  &.ic-table-search-bar {
+    @media #{$max1440} {
+      margin-left: 10px;
+    }
+  }
   .form-control {
     border: none;
     height: 40px;
@@ -4612,13 +4620,16 @@ a.ck.ck-button {
   }
 }
 .dropzone {
-  min-height: 230px;
-  border: 2px dashed #ced4da;
+  background: $color-light !important;
   background: #fff;
+  border: none;
   border-radius: 6px;
   .dz-message {
-    font-size: 24px;
+    border: 1px dashed rgba(247, 177, 4, 0.3);
+    padding: 20px;
+    font-size: 16px;
     width: 100%;
+    margin: 0;
   }
 }
 .twitter-bs-wizard {
@@ -4909,25 +4920,39 @@ table.dataTable {
   }
 }
 .select2-container {
+  width: 100% !important;
   .select2-selection--single {
     background-color: #fff;
-    border: 1px solid #ced4da;
-    height: 38px;
+    border: 1px solid $color-primary;
+    height: 50px;
+    border-radius: 10px;
     &:focus {
       outline: 0;
     }
     .select2-selection__rendered {
-      line-height: 36px;
-      padding-left: 0.75rem;
+      line-height: 50px;
+      padding-left: 20px;
       color: #495057;
     }
     .select2-selection__arrow {
       height: 34px;
       width: 34px;
+      line-height: 5px;
       right: 3px;
+      top: 50%;
+      transform: translateY(-50%);
       b {
         border-color: #adb5bd transparent transparent transparent;
-        border-width: 6px 6px 0 6px;
+        border-width: 0;
+        position: absolute;
+        &::before {
+          position: absolute;
+          content: "\f078";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          transition: 0.4s;
+          color: $color-primary;
+        }
       }
     }
     .select2-selection__placeholder {
@@ -4973,7 +4998,10 @@ table.dataTable {
     .select2-selection__arrow {
       b {
         border-color: transparent transparent #adb5bd transparent !important;
-        border-width: 0 6px 6px 6px !important;
+        border-width: 0 !important;
+        &::before {
+          transform: rotate(-180deg);
+        }
       }
     }
   }
@@ -7086,4 +7114,8 @@ table.dataTable {
       }
     }
   }
+}
+
+.cc-select-items {
+  grid-gap: 30px;
 }

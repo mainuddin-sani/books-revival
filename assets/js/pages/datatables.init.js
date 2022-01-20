@@ -8,5 +8,6 @@
         },
       },
     });
+    $(".dataTable").wrap('<div class="table-responsive"><div>');
   });
 })();

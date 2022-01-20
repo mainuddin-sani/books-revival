@@ -157,3 +157,8 @@
     outline: 0;
   }
 }
+.cc-file-card {
+  &:not(:last-child) {
+    margin-bottom: 50px;
+  }
+}

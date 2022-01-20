@@ -86,6 +86,9 @@ table.table-bordered.dataTable td {
     &::before {
       color: $color-primary;
     }
+    @media #{$max1440} {
+      margin-right: 0;
+    }
   }
   &:hover {
     i {
@@ -107,9 +110,15 @@ table.table-bordered.dataTable td {
 
 .ic-tables-buttons {
   grid-gap: 20px;
+  @media #{$max1440} {
+    grid-gap: 8px;
+  }
 }
 .ic-filter-search {
   grid-gap: 20px;
+  @media #{$max1440} {
+    grid-gap: 8px;
+  }
 }
 
 div.dataTables_wrapper div.dataTables_paginate ul.pagination {
