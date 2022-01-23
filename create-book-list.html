@@ -10,19 +10,17 @@
     <meta content="themessani" name="author" />
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
+
     <!-- preloader css -->
     <link rel="stylesheet" href="assets/css/preloader.min.css" type="text/css" />
     <!-- DataTables -->
-    <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" />
-    <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" />
+    <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet"
+        type="text/css" />
 
     <!-- Bootstrap Css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/icomoon/icon-moons.css" rel="stylesheet" type="text/css" />
-
-    <link href="assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/libs/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
-
     <!-- Icons Css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
@@ -31,7 +29,6 @@
 </head>
 
 <body>
-
     <!-- <body data-layout="horizontal"> -->
 
     <!-- Begin page -->
@@ -53,7 +50,6 @@
                 </div>
 
                 <div class="d-flex">
-
                     <div class="dropdown d-inline-block d-lg-none ms-2">
                         <button type="button" class="btn header-item" id="page-header-search-dropdown"
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -73,21 +69,20 @@
                             </form>
                         </div>
                     </div>
-
                     <div class="dropdown d-inline-block">
-                        <button type="button" class="header-item bg-transparent d-flex align-items-center"
-                            id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
+                        <button class="header-item bg-transparent d-flex align-items-center dropdown-toggle"
+                            type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             <img class="rounded-circle header-profile-user" src="assets/images/user.png"
                                 alt="Header Avatar">
-                            <div class="text-start ms-3">
+                            <div class="text-left ml-3">
                                 <span class="d-none d-xl-inline-block fw-medium font-size-18 text-black">Paul
                                     K.</span>
                                 <p class="mb-0 font-size-12 text-gray">admi@email.com</p>
                             </div>
                             <i class="mdi mdi-chevron-down d-none font-size-20 d-xl-inline-block text-yellow"></i>
                         </button>
-                        <div class="dropdown-menu dropdown-menu-end">
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
                             <!-- item-->
                             <a class="dropdown-item" href="apps-contacts-profile.html"><i
                                     class="mdi mdi-face-profile font-size-16 align-middle me-1"></i> Profile</a>
@@ -98,7 +93,6 @@
                                     class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </header>
@@ -573,7 +567,8 @@
 
     <!-- JAVASCRIPT -->
     <script src="assets/libs/jquery/jquery.min.js"></script>
-    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="assets/libs/metismenu/metisMenu.min.js"></script>
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
     <script src="assets/libs/node-waves/waves.min.js"></script>
@@ -603,13 +598,10 @@
 
     <!-- apexcharts -->
     <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
-    <!-- dropzone -->
-    <script src="assets/libs/dropzone/min/dropzone.min.js"></script>
-    <!-- select2 -->
-    <script src="assets/libs/select2/js/select2.min.js"></script>
-    <script src="assets/js/pages/select2.init.js"></script>
-
-
+    <script src="assets/libs/raphael.min.js"></script>
+    <script src="assets/libs/morris.min.js"></script>
+    <script src="assets/js/pages/morris.init.js"></script>
+    <script src="assets/js/pages/apexcharts.init.js"></script>
     <!-- dashboard init -->
     <script src="assets/js/app.js"></script>
 
