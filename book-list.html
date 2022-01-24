@@ -229,86 +229,6 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <div class="cc-table-button-heads align-items-center d-flex justify-content-between">
-                                    <ul class="list-unstyled d-flex align-items-center">
-                                        <li>
-                                            show
-                                            <select name="length" class="ic-table-length" id="">
-                                                <option value="0">10</option>
-                                                <option value="1">20</option>
-                                                <option value="2">30</option>
-                                            </select>
-                                            Books
-                                        </li>
-                                        <li>
-                                            <div class="ic-filter-search d-flex align-items-center">
-                                                <!-- App Search-->
-                                                <form class="app-search ic-table-search-bar">
-                                                    <div class="position-relative">
-                                                        <input type="text" class="form-control" placeholder="Search...">
-                                                        <button class="btn" type="button"><i
-                                                                data-feather="search"></i></button>
-                                                    </div>
-                                                </form>
-
-                                                <div class="dropdown">
-                                                    <button class="btn tb-btn btn-outline-primary dropdown-toggle"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-                                                        aria-expanded="false"> <i class="mdi mdi-filter-outline
-                                                            "></i>
-                                                        Filter</button>
-
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
-                                                                "></i> Add Translation</a></li>
-                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
-                                                                "></i> Edit</a></li>
-                                                        <li><a class="dropdown-item text-danger" href="#"><i
-                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul class="list-unstyled d-flex ic-tables-buttons">
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary"><i class="icon-download"></i>
-                                                Download
-                                                Report</button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-copy"></i>
-                                                Copy
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-csv"></i>
-                                                CVS
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-execl"></i>
-                                                Excel
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-pdf"></i>
-                                                PDF
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="btn tb-btn btn-outline-primary">
-                                                <i class="icon-print"></i>
-                                                Print
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
                                 <table cellpadding="2" class="cc-datatable table nowrap w-100">
                                     <thead>
                                         <tr>
@@ -340,12 +260,12 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                                         <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
                                                             "></i> Add Translation</a></li>
                                                         <li><a class="dropdown-item" href="#"><i class="fas fa-edit
@@ -370,15 +290,18 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -397,15 +320,18 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -424,19 +350,21 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">The Christian Way Series</td>
@@ -451,19 +379,21 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">The Christian Way Series</td>
@@ -479,19 +409,21 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">The Christian Way Series</td>
@@ -506,19 +438,21 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">The Christian Way Series</td>
@@ -533,19 +467,21 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">The Christian Way Series</td>
@@ -560,19 +496,21 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">The Christian Way Series</td>
@@ -587,19 +525,21 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">The Christian Way Series</td>
@@ -614,19 +554,21 @@
                                             <td class="text-center">
                                                 <div class="dropdown">
                                                     <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
-                                                        role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
                                                         aria-expanded="false">
                                                         <i class="fas fa-ellipsis-v"></i>
                                                     </a>
 
-                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>

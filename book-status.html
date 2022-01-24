@@ -17,8 +17,7 @@
     <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet"
         type="text/css" />
-    <!-- dropzone css -->
-    <link href="assets/libs/dropzone/min/dropzone.min.css" rel="stylesheet" type="text/css" />
+
     <!-- Bootstrap Css -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/icomoon/icon-moons.css" rel="stylesheet" type="text/css" />
@@ -30,6 +29,7 @@
 </head>
 
 <body>
+
     <!-- <body data-layout="horizontal"> -->
 
     <!-- Begin page -->
@@ -211,9 +211,12 @@
                 <div class="container-fluid">
                     <!-- start page title -->
                     <div class="row">
-                        <div class="col-xl-10 col-12 m-auto">
+                        <div class="col-12">
                             <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                <h4 class="mb-sm-0 font-size-18">Digital Distribution</h4>
+                                <h4 class="mb-sm-0 font-size-18">Book Lists</h4>
+                                <div class="page-title-right">
+                                    <button class="btn btn-primary"><i data-feather="plus"></i> Create Book</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -223,38 +226,100 @@
                 <!-- container-fluid -->
 
                 <div class="row">
-                    <div class="col-xl-10 col-12 m-auto">
+                    <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <div class="cc-select-items d-flex align-items-center">
-                                    <h4>Select an online retailer</h4>
-                                    <select name="" id="" class="ic-seclect">
-                                        <option value="0">KDP</option>
-                                        <option value="1">KDP</option>
-                                        <option value="2">KDP</option>
-                                    </select>
-                                </div>
+                                <table cellpadding="2" class="cc-datatable table nowrap w-100">
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center">SL#</th>
+                                            <th class="text-center">Status</th>
+                                            <th class="text-center">Color</th>
+                                            <th class="text-center">Action</th>
+                                        </tr>
+                                    </thead>
 
-                                <p>KDP spreadsheet importer</p>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">01</td>
+                                            <td class="text-center">RC</td>
+                                            <td class="text-center">
+                                                <div class="cc-circle-color"><span> </span></div>
+                                            </td>
+                                            <td class="text-center">
+                                                <div class="dropdown">
+                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
+                                                        aria-expanded="false">
+                                                        <i class="fas fa-ellipsis-v"></i>
+                                                    </a>
 
-                                <div>
-                                    <form action="#" class="dropzone">
-                                        <div class="fallback">
-                                            <input name="file" type="file" multiple="multiple">
-                                        </div>
-                                        <div class="dz-message needsclick">
-                                            <div class="mb-3">
-                                                <i class="display-4 text-muted text-yellow icon-csv"></i>
-                                            </div>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">01</td>
+                                            <td class="text-center">RC</td>
+                                            <td class="text-center">
+                                                <div class="cc-circle-color purple"><span> </span></div>
+                                            </td>
+                                            <td class="text-center">
+                                                <div class="dropdown">
+                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
+                                                        aria-expanded="false">
+                                                        <i class="fas fa-ellipsis-v"></i>
+                                                    </a>
 
-                                            <p><span class="text-yellow">Click</span> or Drag to add Files.</p>
-                                        </div>
-                                    </form>
-                                </div>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">01</td>
+                                            <td class="text-center">RC</td>
+                                            <td class="text-center">
+                                                <div class="cc-circle-color pink"><span> </span></div>
+                                            </td>
+                                            <td class="text-center">
+                                                <div class="dropdown">
+                                                    <a class="btn cc-table-action p-0 dropdown-toggle" href="#"
+                                                        id="dropdownMenuButton" data-toggle="dropdown"
+                                                        aria-expanded="false">
+                                                        <i class="fas fa-ellipsis-v"></i>
+                                                    </a>
 
-                                <div class="text-center mt-4">
-                                    <button type="button" class="btn btn-primary">Save </button>
-                                </div>
+                                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <li><a class="dropdown-item" href="#"><i class="mdi mdi-google-translate
+                                                            "></i> Add Translation</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="fas fa-edit
+                                                            "></i> Edit</a></li>
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="fas fa-trash-alt text-danger"></i> Delete</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -281,6 +346,7 @@
 
     </div>
     <!-- END layout-wrapper -->
+
 
     <!-- JAVASCRIPT -->
     <script src="assets/libs/jquery/jquery.min.js"></script>
@@ -312,8 +378,6 @@
 
     <!-- Datatable init js -->
     <script src="assets/js/pages/datatables.init.js"></script>
-    <!-- dropzone js -->
-    <script src="assets/libs/dropzone/min/dropzone.min.js"></script>
 
     <!-- apexcharts -->
     <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
