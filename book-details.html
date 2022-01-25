@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Books 4 revival</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="themessani" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- preloader css -->
+    <link rel="stylesheet" href="assets/css/preloader.min.css" type="text/css" />
+    <!-- DataTables -->
+    <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet"
+        type="text/css" />
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/icomoon/icon-moons.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <!-- <body data-layout="horizontal"> -->
+
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex cc-collapsed-menu">
+                    <button type="button" class="btn btn-sm font-size-16 header-item" id="vertical-menu-btn">
+                        <i data-feather="chevron-left"></i>
+                    </button>
+
+                    <!-- App Search-->
+                    <form class="app-search d-none d-lg-block">
+                        <div class="position-relative">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <button class="btn" type="button"><i data-feather="search"></i></button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="d-flex">
+                    <div class="dropdown d-inline-block d-lg-none ms-2">
+                        <button type="button" class="btn header-item" id="page-header-search-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i data-feather="search" class="icon-lg"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                            aria-labelledby="page-header-search-dropdown">
+
+                            <form class="p-3">
+                                <div class="form-group m-0">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search ..."
+                                            aria-label="Search Result">
+                                        <button class="btn" type="submit"><i data-feathe="search"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="dropdown d-inline-block">
+                        <button class="header-item bg-transparent d-flex align-items-center dropdown-toggle"
+                            type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img class="rounded-circle header-profile-user" src="assets/images/user.png"
+                                alt="Header Avatar">
+                            <div class="text-left ml-3">
+                                <span class="d-none d-xl-inline-block fw-medium font-size-18 text-black">Paul
+                                    K.</span>
+                                <p class="mb-0 font-size-12 text-gray">admi@email.com</p>
+                            </div>
+                            <i class="mdi mdi-chevron-down d-none font-size-20 d-xl-inline-block text-yellow"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                            <!-- item-->
+                            <a class="dropdown-item" href="apps-contacts-profile.html"><i
+                                    class="mdi mdi-face-profile font-size-16 align-middle me-1"></i> Profile</a>
+                            <a class="dropdown-item" href="auth-lock-screen.html"><i
+                                    class="mdi mdi-lock font-size-16 align-middle me-1"></i> Lock screen</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="auth-logout.html"><i
+                                    class="mdi mdi-logout font-size-16 align-middle me-1"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="vertical-menu">
+            <div data-simplebar class="h-100">
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="assets/images/sort-logo.png" alt="">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo.png" alt="">
+                            </span>
+                        </a>
+
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/sort-logo.png" alt="">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo.png" alt="">
+                            </span>
+                        </a>
+                    </div>
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li class="mm-active">
+                            <a href="javascript: void(0);" class="has-arrow" aria-expanded="true">
+                                <i class="icon-dashboard"></i>
+                                <span data-key="t-dashboard">Dashboard</span>
+                            </a>
+                            <ul class="sub-menu mm-collapse mm-show" aria-expanded="false">
+                                <li><a href="#">Single Book Dashboard</a></li>
+                                <li><a href="#">Progress Dashboard</a></li>
+                                <li><a href="#">Sales/Distribution
+                                        Dashboard</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow">
+                                <i class="icon-book-plus"></i>
+                                <span>Book Management</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="#">Book List</a></li>
+                                <li><a href="#">Book Creation</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow">
+                                <i class="icon-book-open"></i>
+                                <span>Book Attributes</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="#">Book Format</a></li>
+                                <li><a href="#">Book Series</a></li>
+                                <li><a href="#">Book Status</a></li>
+                                <li><a href="#">Book Tags</a></li>
+                                <li><a href="#">Book Author</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow">
+                                <i class="icon-user"></i>
+                                <span>User</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="#">Production Report</a></li>
+                                <li><a href="#">Distribution Report</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow">
+                                <i class="fas fa-cog"></i>
+                                <span>Settings</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="true">
+                                <li>
+                                    <a href="javascript: void(0);" class="has-arrow">User</a>
+                                    <ul class="sub-menu" aria-expanded="true">
+                                        <li><a href="javascript: void(0);">User List</a></li>
+                                        <li><a href="javascript: void(0);">User Role</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript: void(0);" class="has-arrow">Setting</a>
+                                    <ul class="sub-menu" aria-expanded="true">
+                                        <li><a href="javascript: void(0);">System Setting</a></li>
+                                        <li><a href="javascript: void(0);">Email Setting</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+            <div class="page-content">
+                <!-- container-fluid -->
+
+                <div class="row">
+                    <div class="col-xxl-12 col-12 m-auto">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <div class="cc-book-details-img">
+                                            <img src="assets/images/images1.png" class="img-fluid" alt="images">
+                                        </div>
+                                        <div class="holder">
+                                            <div class="audio green-audio-player">
+                                                <div class="loading">
+                                                    <div class="spinner"></div>
+                                                </div>
+                                                <div class="play-pause-btn">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="24"
+                                                        viewBox="0 0 18 24">
+                                                        <path fill="#566574" fill-rule="evenodd" d="M18 12L0 24V0"
+                                                            class="play-pause-icon" id="playPause" />
+                                                    </svg>
+                                                </div>
+
+                                                <div class="controls">
+                                                    <!-- <span class="current-time">0:00</span> -->
+                                                    <div class="slider" data-direction="horizontal">
+                                                        <div class="progress">
+                                                            <div class="pin" id="progress-pin" data-method="rewind">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- <span class="total-time">0:00</span> -->
+                                                </div>
+
+                                                <div class="volume">
+                                                    <div class="volume-btn">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24">
+                                                            <path fill="#566574" fill-rule="evenodd"
+                                                                d="M14.667 0v2.747c3.853 1.146 6.666 4.72 6.666 8.946 0 4.227-2.813 7.787-6.666 8.934v2.76C20 22.173 24 17.4 24 11.693 24 5.987 20 1.213 14.667 0zM18 11.693c0-2.36-1.333-4.386-3.333-5.373v10.707c2-.947 3.333-2.987 3.333-5.334zm-18-4v8h5.333L12 22.36V1.027L5.333 7.693H0z"
+                                                                id="speaker" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="volume-controls hidden">
+                                                        <div class="slider" data-direction="vertical">
+                                                            <div class="progress">
+                                                                <div class="pin" id="volume-pin"
+                                                                    data-method="changeVolume"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <audio crossorigin>
+                                                    <source
+                                                        src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/355309/Swing_Jazz_Drum.mp3"
+                                                        type="audio/mpeg">
+                                                </audio>
+                                            </div>
+                                        </div>
+                                        <!-- pages- -->
+                                        <div class="cc-count-app">
+                                            <div class="cc-count-items">
+                                                <i class="icon-list"></i>
+                                                <div>
+                                                    <p class="cc-number mb-0">1052</p>
+                                                    <p class="cc-name mb-0">Pages</p>
+                                                </div>
+                                            </div>
+                                            <div class="cc-count-items orange">
+                                                <i class="icon-list"></i>
+                                                <div>
+                                                    <p class="cc-number mb-0">21:35</p>
+                                                    <p class="cc-name mb-0">To Read</p>
+                                                </div>
+                                            </div>
+                                            <div class="cc-count-items sky">
+                                                <i class="icon-list"></i>
+                                                <div>
+                                                    <p class="cc-number mb-0">21:35</p>
+                                                    <p class="cc-name mb-0">To Listen</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- pages- -->
+
+                                        <!-- app button -->
+                                        <div class="ic-app-store">
+                                            <p class="mb-0">Download our mobile app</p>
+                                            <div>
+                                                <a href="#"><img src="assets/images/app.png" alt=""></a>
+                                                <a href="#"><img src="assets/images/google.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <!-- app button -->
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="cc-books-details-content">
+                                            <h3>The Complete Works of Zacharias Tanee Fomum on Basic Christian Doctrine
+                                            </h3>
+                                            <table class="table table-borderless books-details-table">
+                                                <tr>
+                                                    <td><span>Author</span></td>
+                                                    <td><span>:</span></td>
+                                                    <td><span>John Ab</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>Narrated By</span></td>
+                                                    <td><span>:</span></td>
+                                                    <td><span>Stacy Thomas</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>Copyright</span></td>
+                                                    <td><span>:</span></td>
+                                                    <td><span>10 Nov 2021</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>Language</span></td>
+                                                    <td><span>:</span></td>
+                                                    <td><span>English</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>Translation</span></td>
+                                                    <td><span>:</span></td>
+                                                    <td><span>Eng, Fre, Arb, jap, Cha</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>Tags</span></td>
+                                                    <td><span>:</span></td>
+                                                    <td><span>Church Life</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>Series</span></td>
+                                                    <td><span>:</span></td>
+                                                    <td><span>The Christian Way</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>Editing</span></td>
+                                                    <td><span>:</span></td>
+                                                    <td><span>The Christian Way</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>Formats</span></td>
+                                                    <td><span>:</span></td>
+                                                    <td>
+                                                        <div class="cc-formate">
+                                                            <span class="ic-ebook cc-badege">
+                                                                <i class="icon-list"></i> eBook</span>
+                                                            <span class="ic-pod cc-badege"><i
+                                                                    class="icon-book2"></i>POD</span>
+                                                            <span class="cc-badege ic-adiuo"><i
+                                                                    class="icon-sound"></i>Audio</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span>Price <select class="ic-select-details" name="" id="">
+                                                                <option value="0">$</option>
+                                                            </select></span></td>
+                                                    <td><span></span></td>
+                                                    <td>
+                                                        <div class="cc-formate">
+                                                            <span class="ic-ebook cc-badege dollar">
+                                                                eBook : $35</span>
+                                                            <span class="ic-pod cc-badege dollar">POD : $55</span>
+                                                            <span class="cc-badege ic-adiuo dollar">Audio : $45</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <div class="cc-books-details-content">
+                                                <p class="synopsis">Synopsis :</p>
+                                                <p class="cc-details-books">I give you the city of Douala!
+                                                    The devil rules the world through continental arch-demons called
+                                                    Princes. For example, there is the Satanic Prince of Asia, the
+                                                    Satanic Prince of Europe, the Satanic Prince of America, the Satanic
+                                                    Prince of Oceania. Under these continental spirits and in loyalty to
+                                                    them are regional and national spirits. More</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cc-books-slider-main-heads">
+                            <h3 class="mb-4">From the Same Series</h3>
+                            <div class="ic-books-slider owl-carousel owl-theme">
+                                <div class="cc-slider-items">
+                                    <img src="assets/images/images1.png" class="img-fluid" alt="">
+                                    <div class="cc-books-name">
+                                        <p class="mb-0">Ture Repentace</p>
+                                    </div>
+                                </div>
+                                <div class="cc-slider-items">
+                                    <img src="assets/images/images2.png" class="img-fluid" alt="">
+                                    <div class="cc-books-name">
+                                        <p class="mb-0">Ture Repentace</p>
+                                    </div>
+                                </div>
+                                <div class="cc-slider-items">
+                                    <img src="assets/images/images3.png" class="img-fluid" alt="">
+                                    <div class="cc-books-name">
+                                        <p class="mb-0">Ture Repentace</p>
+                                    </div>
+                                </div>
+                                <div class="cc-slider-items">
+                                    <img src="assets/images/images4.png" class="img-fluid" alt="">
+                                    <div class="cc-books-name">
+                                        <p class="mb-0">Ture Repentace</p>
+                                    </div>
+                                </div>
+                                <div class="cc-slider-items">
+                                    <img src="assets/images/images5.png" class="img-fluid" alt="">
+                                    <div class="cc-books-name">
+                                        <p class="mb-0">Ture Repentace</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Page-content -->
+
+            <!-- <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <script>document.write(new Date().getFullYear())</script> © themessani.
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="text-sm-end d-none d-sm-block">
+                                Design & Develop by <a href="#!" class="text-decoration-underline">themessani</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer> -->
+        </div>
+        <!-- end main content-->
+
+    </div>
+    <!-- END layout-wrapper -->
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <!-- pace js -->
+    <script src="assets/libs/pace-js/pace.min.js"></script>
+
+    <!-- Required datatable js -->
+    <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <!-- Buttons examples -->
+    <script src="assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
+    <script src="assets/libs/jszip/jszip.min.js"></script>
+    <script src="assets/libs/pdfmake/build/pdfmake.min.js"></script>
+    <script src="assets/libs/pdfmake/build/vfs_fonts.js"></script>
+    <script src="assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="assets/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
+
+    <!-- Responsive examples -->
+    <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+
+    <!-- Datatable init js -->
+    <script src="assets/js/pages/datatables.init.js"></script>
+
+    <!-- Datatable init js -->
+    <script src="assets/js/audio.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- apexcharts -->
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/libs/raphael.min.js"></script>
+    <script src="assets/libs/morris.min.js"></script>
+    <script src="assets/js/pages/morris.init.js"></script>
+    <script src="assets/js/pages/apexcharts.init.js"></script>
+    <!-- dashboard init -->
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>
