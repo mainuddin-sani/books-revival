@@ -151,10 +151,18 @@
   border: 1px solid $color-primary;
   box-sizing: border-box;
   border-radius: 10px;
+  background: transparent;
   color: $color-primary;
-  padding: 15px 20px;
+  padding: 11px 20px;
   &:focus {
     outline: 0;
+  }
+}
+
+.ic-select-heads {
+  margin-bottom: 20px;
+  .ic-seclect {
+    width: 214px;
   }
 }
 .cc-file-card {
