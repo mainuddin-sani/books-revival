@@ -4179,7 +4179,8 @@ table.dataTable > thead .sorting_desc_disabled::after {
   .select2-container .select2-selection--multiple {
     min-height: 38px;
     background-color: #fff;
-    border: 1px solid #ced4da !important; }
+    border: 1px solid #f7b104 !important;
+    border-radius: 10px; }
     .select2-container .select2-selection--multiple .select2-selection__rendered {
       padding: 2px 0.75rem; }
     .select2-container .select2-selection--multiple .select2-search__field {
@@ -4196,10 +4197,11 @@ table.dataTable > thead .sorting_desc_disabled::after {
       .select2-container .select2-selection--multiple .select2-search__field::placeholder {
         color: #495057; }
     .select2-container .select2-selection--multiple .select2-selection__choice {
-      background-color: #e9e9ef;
-      border: 1px solid #f6f6f6;
+      background-color: #f7b104;
+      border: 1px solid #f7b104;
       border-radius: 1px;
-      padding: 0 7px; }
+      padding: 0 7px;
+      color: #fff; }
 
 .select2-container--open .select2-selection--single .select2-selection__arrow b {
   border-color: transparent transparent #adb5bd transparent !important;
