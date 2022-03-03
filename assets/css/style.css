@@ -1701,7 +1701,6 @@ body[data-layout-mode="dark"][data-topbar="light"] .notification-item .d-flex:ho
     padding: 0; }
 
 .footer {
-  bottom: 0;
   padding: 20px calc(24px / 2);
   position: absolute;
   right: 0;
@@ -6075,7 +6074,6 @@ table.dataTable > thead .sorting_desc_disabled::after {
   grid-gap: 30px; }
 
 .cc-slider-items img {
-  max-width: 200px;
   max-height: 225px;
   border-radius: 30px; }
   @media only screen and (max-width: 767.98px) {
